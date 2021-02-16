@@ -87,10 +87,6 @@ body{
     border-radius: 50%;
     margin-left: 40px;
 }
-.share-btn{
-    background: hsl(210, 46%, 95%);
-    /* background-size: 200px; */
-}
 .div-share-btn{
     display: flex;
     align-items: center;
@@ -101,6 +97,9 @@ body{
     background: hsl(210, 46%, 95%);
     margin-left: 180px;
     cursor: pointer;
+}
+.share-btn{
+    fill:white;
 }
 .sharing{
     background: hsl(217, 19%, 35%);
@@ -134,4 +133,7 @@ body{
     border-left: solid 20px transparent;
     border-right: solid 20px transparent;
 
+}
+.link{
+    color: purple;
 }
