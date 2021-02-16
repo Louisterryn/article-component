@@ -134,6 +134,15 @@ body{
     border-right: solid 20px transparent;
 
 }
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+}
+.icon-fb, .icon-twitter, .icon-pinterest{
+    border: solid green;
+}
 
 /* MEDIA QUERIES */
 
@@ -181,11 +190,23 @@ body{
         margin-left: 40px;
         width: auto;
     }
-    .sharing img{
+    .icon-fb, .icon-twitter, .icon-pinterest{
+        margin-left: 15px;
     }
-
+    .sharing a{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 565px){
+    .div-share-btn{
+        z-index: 999;
+    }
+    .share-btn{
+        z-index: 999;
+    }
+    .sharing{
+        justify-content: center;
+    }
 
 }
